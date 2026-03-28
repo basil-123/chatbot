@@ -7,10 +7,16 @@ CUSTOM_CSS = """
     footer { visibility: hidden; }
     header { visibility: hidden; }
 
-    /* Main background */
+    /* Main background & Global Text Color */
     .stApp {
         background: linear-gradient(135deg, #0a0a0f 0%, #0f0c29 50%, #100c2a 100%);
         min-height: 100vh;
+        color: #f3f4f6 !important;
+    }
+    
+    /* Force markdown text globally */
+    .stMarkdown, .stMarkdown p, .stMarkdown span, .stMarkdown div {
+        color: #f3f4f6 !important;
     }
 
     /* Sidebar styling */
