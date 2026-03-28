@@ -8,7 +8,7 @@ from config import GROQ_API_KEY, MEMORY_WINDOW, DEFAULT_MODEL
 
 PROMPT_TEMPLATE = PromptTemplate(
     input_variables=["history", "input"],
-    template="""You are NexusChat AI, a helpful and intelligent conversational assistant.
+    template="""You are Chatly, a helpful and intelligent conversational assistant.
 
 Rules you must always follow:
 1. Always maintain context from the conversation history. If the user refers to something mentioned earlier (like "it", "that", "its"), resolve it from the previous messages.

@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 # Ensure we always get the latest .env changes
 load_dotenv(override=True)
 
-APP_TITLE = "NexusChat AI"
+APP_TITLE = "Chatly"
 APP_ICON = "💬"
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")

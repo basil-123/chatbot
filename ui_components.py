@@ -18,7 +18,7 @@ def init_session():
 def render_hero():
     st.markdown("""
     <div class="hero-wrap">
-        <div class="hero-title">NexusChat AI</div>
+        <div class="hero-title">Chatly</div>
         <div class="hero-sub">Context-aware conversations that remember what matters ✨</div>
     </div>
     """, unsafe_allow_html=True)
@@ -50,7 +50,7 @@ def render_welcome():
     st.markdown("""
     <div class="welcome-wrap">
         <div class="welcome-icon">💬</div>
-        <div class="welcome-title">Welcome to NexusChat AI</div>
+        <div class="welcome-title">Welcome to Chatly</div>
         <div class="welcome-desc">
             Ask me anything. I remember the full context of our conversation,
             so feel free to use follow-up questions without re-explaining what you mean.
@@ -94,7 +94,7 @@ def render_sidebar():
         st.divider()
         st.markdown("### 📌 How It Works")
         st.caption(
-            "NexusChat maintains a sliding window of your last 10 exchanges. "
+            "Chatly maintains a sliding window of your last 10 exchanges. "
             "Older messages are dropped to stay within token limits while keeping "
             "the most recent context fully intact."
         )
